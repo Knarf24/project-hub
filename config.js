@@ -8,7 +8,7 @@ window.SHOWCASE_CONFIG = {
 
   // Repos that never appear on the site (the profile README repo is always hidden).
   // You can also hide a repo by adding the topic "hide-from-showcase" to it on GitHub.
-  exclude: ["frank-ncube-portfolio"],
+  exclude: ["frank-ncube-portfolio", "project-hub"],
 
   // Add the topic "featured" to a repo on GitHub to pin it to the top.
   // Optional per-project overrides, keyed by repo name:
