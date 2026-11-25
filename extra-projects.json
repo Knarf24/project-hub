@@ -1,0 +1,18 @@
+{
+  "_help": "Projects that are NOT GitHub repos (built/hosted on other platforms). Add one block per project. Only title and demo are required.",
+  "projects": [
+    {
+      "title": "Example Project (delete me)",
+      "description": "One or two sentences about what it does.",
+      "demo": "https://example.com",
+      "code": "",
+      "platform": "Lovable",
+      "categories": ["Web Apps"],
+      "topics": ["react"],
+      "image": "",
+      "added": "2026-11-25",
+      "featured": false,
+      "hidden": true
+    }
+  ]
+}

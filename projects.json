@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-11-25T19:23:19.789584Z",
+  "user": "Knarf24",
+  "repos": [
+    {
+      "archived": false,
+      "description": "Personal portfolio showcasing my software engineering, AI, cloud, and product development work.",
+      "fork": false,
+      "homepage": "https://frank-ncube-portfolio.vercel.app",
+      "html_url": "https://github.com/Knarf24/frank-ncube-portfolio",
+      "language": "TypeScript",
+      "name": "frank-ncube-portfolio",
+      "owner": {
+        "login": "Knarf24"
+      },
+      "pushed_at": "2026-11-02T07:37:54Z",
+      "stargazers_count": 1,
+      "topics": [
+        "artificial-intelligence",
+        "nextjs",
+        "portfolio-website",
+        "react",
+        "software-engineering",
+        "tailwindcss",
+        "typescript",
+        "vercel-deployment"
+      ],
+      "updated_at": "2026-11-02T07:37:59Z"
+    },
+    {
+      "archived": false,
+      "description": "ShopAccess AI \u2014 inclusive laptop-shopping assistant (mock-only demo)",
+      "fork": false,
+      "homepage": null,
+      "html_url": "https://github.com/Knarf24/shopaccess-ai",
+      "language": "TypeScript",
+      "name": "shopaccess-ai",
+      "owner": {
+        "login": "Knarf24"
+      },
+      "pushed_at": "2026-11-02T01:29:39Z",
+      "stargazers_count": 0,
+      "topics": [],
+      "updated_at": "2026-11-02T01:40:40Z"
+    },
+    {
+      "archived": false,
+      "description": "AI-assisted support triage system using classification, keyword-overlap retrieval, risk evaluation, and Claude-generated responses, with a TF-IDF + semantic Python prototype.",
+      "fork": false,
+      "homepage": "",
+      "html_url": "https://github.com/Knarf24/support-triangle-agent",
+      "language": "TypeScript",
+      "name": "support-triangle-agent",
+      "owner": {
+        "login": "Knarf24"
+      },
+      "pushed_at": "2026-09-25T01:32:12Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai",
+        "claude-api",
+        "express",
+        "postgresql",
+        "python",
+        "rag",
+        "react",
+        "retrieval-augmented-generation",
+        "support-triage",
+        "typescript"
+      ],
+      "updated_at": "2026-09-25T01:32:16Z"
+    },
+    {
+      "archived": false,
+      "description": null,
+      "fork": false,
+      "homepage": null,
+      "html_url": "https://github.com/Knarf24/Knarf24",
+      "language": null,
+      "name": "Knarf24",
+      "owner": {
+        "login": "Knarf24"
+      },
+      "pushed_at": "2026-08-25T20:30:26Z",
+      "stargazers_count": 0,
+      "topics": [],
+      "updated_at": "2026-08-25T20:33:48Z"
+    },
+    {
+      "archived": false,
+      "description": "Context-aware local offer app that ranks nearby merchants from situational context and generates AI-crafted, time-limited offers with React, TypeScript, and Supabase.",
+      "fork": false,
+      "homepage": "",
+      "html_url": "https://github.com/Knarf24/streetwise-offer-ai",
+      "language": "TypeScript",
+      "name": "streetwise-offer-ai",
+      "owner": {
+        "login": "Knarf24"
+      },
+      "pushed_at": "2026-09-25T13:23:18Z",
+      "stargazers_count": 0,
+      "topics": [
+        "ai",
+        "context-aware",
+        "edge-functions",
+        "local-commerce",
+        "merchant-platform",
+        "postgresql",
+        "react",
+        "recommendation-system",
+        "supabase",
+        "typescript"
+      ],
+      "updated_at": "2026-09-25T13:23:23Z"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Hub</title>
+  <meta name="description" content="A directory of every project I've built, with live demos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="./"><span class="logo">◆</span> <span id="brand-name">Project Hub</span></a>
+      <div class="nav-links">
+        <a id="portfolio-link" href="#" target="_blank" rel="noopener" hidden>Portfolio</a>
+        <a id="github-link" href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+    <div class="hero-inner">
+      <h1 id="site-title">Project Hub</h1>
+      <p id="tagline" class="tagline"></p>
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Search projects, tech, topics…" autocomplete="off" aria-label="Search projects">
+      </div>
+      <p id="stats" class="stats"></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="filters" class="filters" role="toolbar" aria-label="Filter by category"></div>
+    <div class="toolbar">
+      <label class="toggle"><input id="demo-only" type="checkbox"> Only show projects with a live demo</label>
+      <select id="sort" aria-label="Sort projects">
+        <option value="recent">Recently updated</option>
+        <option value="newest">Newest first</option>
+        <option value="name">A to Z</option>
+        <option value="stars">Most stars</option>
+      </select>
+    </div>
+    <section id="grid" class="grid" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>No projects match that search.</p>
+  </main>
+
+  <footer class="footer">
+    <p>This list updates itself from <a id="footer-gh" href="#" target="_blank" rel="noopener">GitHub</a>. <span id="updated"></span></p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
