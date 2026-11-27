@@ -16,6 +16,7 @@ window.SHOWCASE_CONFIG = {
   overrides: {
     "support-triangle-agent": { title: "Support Triage Agent" },
     "shopaccess-ai": { title: "ShopAccess AI" },
-    "streetwise-offer-ai": { title: "Streetwise Offer AI" }
+    "streetwise-offer-ai": { title: "Streetwise Offer AI" },
+    "research-compass": { demo: "https://research-compass.studentlabs.me" }
   }
 };
