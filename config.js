@@ -8,7 +8,7 @@ window.SHOWCASE_CONFIG = {
 
   // Repos that never appear on the site (the profile README repo is always hidden).
   // You can also hide a repo by adding the topic "hide-from-showcase" to it on GitHub.
-  exclude: ["frank-ncube-portfolio", "project-hub"],
+  exclude: ["frank-ncube-portfolio", "project-hub", "Knarf24.github.io"],
 
   // Add the topic "featured" to a repo on GitHub to pin it to the top.
   // Optional per-project overrides, keyed by repo name:
@@ -17,6 +17,10 @@ window.SHOWCASE_CONFIG = {
     "support-triangle-agent": { title: "Support Triage Agent" },
     "shopaccess-ai": { title: "ShopAccess AI" },
     "streetwise-offer-ai": { title: "Streetwise Offer AI" },
-    "research-compass": { demo: "https://research-compass.studentlabs.me" }
+    "research-compass": { demo: "https://research-compass.studentlabs.me" },
+    "weather-brief": {
+      description: "Daily weather and air-quality brief: live forecast, rain chances and a real EPA air-quality score for any city, written in Python and run in your browser.",
+      demo: "https://knarf24.github.io/weather-brief/"
+    }
   }
 };
